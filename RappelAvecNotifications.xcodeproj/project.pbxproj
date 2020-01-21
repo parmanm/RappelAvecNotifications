@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D643590623CF94DB001BC632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643590523CF94DB001BC632 /* AppDelegate.swift */; };
+		D643590823CF94DB001BC632 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643590723CF94DB001BC632 /* SceneDelegate.swift */; };
+		D643590C23CF94DD001BC632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D643590B23CF94DD001BC632 /* Assets.xcassets */; };
+		D643590F23CF94DD001BC632 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D643590E23CF94DD001BC632 /* Preview Assets.xcassets */; };
+		D643591223CF94DD001BC632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D643591023CF94DD001BC632 /* LaunchScreen.storyboard */; };
+		D643591D23CF951C001BC632 /* NotificationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643591C23CF951C001BC632 /* NotificationHelper.swift */; };
+		D643592023CF955C001BC632 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643591F23CF955C001BC632 /* NotificationModel.swift */; };
+		D643592223CF9602001BC632 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643592123CF9602001BC632 /* HomeView.swift */; };
+		D643592423CF9618001BC632 /* AddRemindPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643592323CF9618001BC632 /* AddRemindPopupView.swift */; };
+		D643592623CF9758001BC632 /* DatePickerFormatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643592523CF9758001BC632 /* DatePickerFormatted.swift */; };
+		D643592823CF977D001BC632 /* AddRemindButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D643592723CF977D001BC632 /* AddRemindButton.swift */; };
+		D644AD9C23D0B5F7003526BB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD8F23D0B5F7003526BB /* Roboto-Medium.ttf */; };
+		D644AD9D23D0B5F7003526BB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9023D0B5F7003526BB /* Roboto-Light.ttf */; };
+		D644AD9E23D0B5F7003526BB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9123D0B5F7003526BB /* Roboto-Regular.ttf */; };
+		D644AD9F23D0B5F7003526BB /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9223D0B5F7003526BB /* Roboto-MediumItalic.ttf */; };
+		D644ADA023D0B5F7003526BB /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9323D0B5F7003526BB /* Roboto-ThinItalic.ttf */; };
+		D644ADA123D0B5F7003526BB /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9423D0B5F7003526BB /* Roboto-BoldItalic.ttf */; };
+		D644ADA223D0B5F7003526BB /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9523D0B5F7003526BB /* Roboto-LightItalic.ttf */; };
+		D644ADA323D0B5F7003526BB /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9623D0B5F7003526BB /* Roboto-Italic.ttf */; };
+		D644ADA423D0B5F7003526BB /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9723D0B5F7003526BB /* LICENSE.txt */; };
+		D644ADA523D0B5F7003526BB /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9823D0B5F7003526BB /* Roboto-BlackItalic.ttf */; };
+		D644ADA623D0B5F7003526BB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9923D0B5F7003526BB /* Roboto-Bold.ttf */; };
+		D644ADA723D0B5F7003526BB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9A23D0B5F7003526BB /* Roboto-Thin.ttf */; };
+		D644ADA823D0B5F7003526BB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D644AD9B23D0B5F7003526BB /* Roboto-Black.ttf */; };
+		D65BD81F23CFB8EA00A96E86 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BD81E23CFB8EA00A96E86 /* BlurView.swift */; };
+		D65BD82323CFBCEF00A96E86 /* RemindRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BD82223CFBCEF00A96E86 /* RemindRow.swift */; };
+		D65BD82523CFBFC500A96E86 /* RemindCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65BD82423CFBFC500A96E86 /* RemindCheckbox.swift */; };
+		D6D7478B23CF997D004EACAA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D7478A23CF997D004EACAA /* Colors.swift */; };
+		D6D7478D23CFA386004EACAA /* RoundedCornersShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D7478C23CFA386004EACAA /* RoundedCornersShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D643590223CF94DB001BC632 /* RappelAvecNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappelAvecNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D643590523CF94DB001BC632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D643590723CF94DB001BC632 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D643590B23CF94DD001BC632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D643590E23CF94DD001BC632 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D643591123CF94DD001BC632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D643591323CF94DD001BC632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D643591C23CF951C001BC632 /* NotificationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHelper.swift; sourceTree = "<group>"; };
+		D643591F23CF955C001BC632 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		D643592123CF9602001BC632 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D643592323CF9618001BC632 /* AddRemindPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemindPopupView.swift; sourceTree = "<group>"; };
+		D643592523CF9758001BC632 /* DatePickerFormatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerFormatted.swift; sourceTree = "<group>"; };
+		D643592723CF977D001BC632 /* AddRemindButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRemindButton.swift; sourceTree = "<group>"; };
+		D644AD8F23D0B5F7003526BB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		D644AD9023D0B5F7003526BB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		D644AD9123D0B5F7003526BB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D644AD9223D0B5F7003526BB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D644AD9323D0B5F7003526BB /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D644AD9423D0B5F7003526BB /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D644AD9523D0B5F7003526BB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		D644AD9623D0B5F7003526BB /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		D644AD9723D0B5F7003526BB /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D644AD9823D0B5F7003526BB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D644AD9923D0B5F7003526BB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		D644AD9A23D0B5F7003526BB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		D644AD9B23D0B5F7003526BB /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		D65BD81E23CFB8EA00A96E86 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		D65BD82223CFBCEF00A96E86 /* RemindRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindRow.swift; sourceTree = "<group>"; };
+		D65BD82423CFBFC500A96E86 /* RemindCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindCheckbox.swift; sourceTree = "<group>"; };
+		D6D7478A23CF997D004EACAA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D6D7478C23CFA386004EACAA /* RoundedCornersShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D64358FF23CF94DB001BC632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D64358F923CF94DB001BC632 = {
+			isa = PBXGroup;
+			children = (
+				D643590423CF94DB001BC632 /* RappelAvecNotifications */,
+				D643590323CF94DB001BC632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D643590323CF94DB001BC632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D643590223CF94DB001BC632 /* RappelAvecNotifications.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D643590423CF94DB001BC632 /* RappelAvecNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				D644AD8D23D0B5A6003526BB /* Fonts */,
+				D643591B23CF94F8001BC632 /* Component */,
+				D643591A23CF94F3001BC632 /* View */,
+				D643591923CF94EE001BC632 /* Core */,
+				D643590523CF94DB001BC632 /* AppDelegate.swift */,
+				D643590723CF94DB001BC632 /* SceneDelegate.swift */,
+				D643590B23CF94DD001BC632 /* Assets.xcassets */,
+				D643591023CF94DD001BC632 /* LaunchScreen.storyboard */,
+				D643591323CF94DD001BC632 /* Info.plist */,
+				D643590D23CF94DD001BC632 /* Preview Content */,
+			);
+			path = RappelAvecNotifications;
+			sourceTree = "<group>";
+		};
+		D643590D23CF94DD001BC632 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D643590E23CF94DD001BC632 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D643591923CF94EE001BC632 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D643591E23CF9545001BC632 /* Notification */,
+				D6D7478A23CF997D004EACAA /* Colors.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D643591A23CF94F3001BC632 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D643592123CF9602001BC632 /* HomeView.swift */,
+				D643592323CF9618001BC632 /* AddRemindPopupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D643591B23CF94F8001BC632 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				D643592923CF9782001BC632 /* AddRemindPopup */,
+				D6D7478C23CFA386004EACAA /* RoundedCornersShape.swift */,
+				D65BD81E23CFB8EA00A96E86 /* BlurView.swift */,
+				D65BD82223CFBCEF00A96E86 /* RemindRow.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D643591E23CF9545001BC632 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				D643591C23CF951C001BC632 /* NotificationHelper.swift */,
+				D643591F23CF955C001BC632 /* NotificationModel.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		D643592923CF9782001BC632 /* AddRemindPopup */ = {
+			isa = PBXGroup;
+			children = (
+				D643592523CF9758001BC632 /* DatePickerFormatted.swift */,
+				D643592723CF977D001BC632 /* AddRemindButton.swift */,
+				D65BD82423CFBFC500A96E86 /* RemindCheckbox.swift */,
+			);
+			path = AddRemindPopup;
+			sourceTree = "<group>";
+		};
+		D644AD8D23D0B5A6003526BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D644AD8E23D0B5F7003526BB /* Roboto */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D644AD8E23D0B5F7003526BB /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				D644AD8F23D0B5F7003526BB /* Roboto-Medium.ttf */,
+				D644AD9023D0B5F7003526BB /* Roboto-Light.ttf */,
+				D644AD9123D0B5F7003526BB /* Roboto-Regular.ttf */,
+				D644AD9223D0B5F7003526BB /* Roboto-MediumItalic.ttf */,
+				D644AD9323D0B5F7003526BB /* Roboto-ThinItalic.ttf */,
+				D644AD9423D0B5F7003526BB /* Roboto-BoldItalic.ttf */,
+				D644AD9523D0B5F7003526BB /* Roboto-LightItalic.ttf */,
+				D644AD9623D0B5F7003526BB /* Roboto-Italic.ttf */,
+				D644AD9723D0B5F7003526BB /* LICENSE.txt */,
+				D644AD9823D0B5F7003526BB /* Roboto-BlackItalic.ttf */,
+				D644AD9923D0B5F7003526BB /* Roboto-Bold.ttf */,
+				D644AD9A23D0B5F7003526BB /* Roboto-Thin.ttf */,
+				D644AD9B23D0B5F7003526BB /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D643590123CF94DB001BC632 /* RappelAvecNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D643591623CF94DD001BC632 /* Build configuration list for PBXNativeTarget "RappelAvecNotifications" */;
+			buildPhases = (
+				D64358FE23CF94DB001BC632 /* Sources */,
+				D64358FF23CF94DB001BC632 /* Frameworks */,
+				D643590023CF94DB001BC632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RappelAvecNotifications;
+			productName = RappelAvecNotifications;
+			productReference = D643590223CF94DB001BC632 /* RappelAvecNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D64358FA23CF94DB001BC632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "RUN4U Studio";
+				TargetAttributes = {
+					D643590123CF94DB001BC632 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D64358FD23CF94DB001BC632 /* Build configuration list for PBXProject "RappelAvecNotifications" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D64358F923CF94DB001BC632;
+			productRefGroup = D643590323CF94DB001BC632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D643590123CF94DB001BC632 /* RappelAvecNotifications */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D643590023CF94DB001BC632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D644ADA623D0B5F7003526BB /* Roboto-Bold.ttf in Resources */,
+				D644ADA423D0B5F7003526BB /* LICENSE.txt in Resources */,
+				D644ADA123D0B5F7003526BB /* Roboto-BoldItalic.ttf in Resources */,
+				D644AD9E23D0B5F7003526BB /* Roboto-Regular.ttf in Resources */,
+				D644ADA223D0B5F7003526BB /* Roboto-LightItalic.ttf in Resources */,
+				D644AD9C23D0B5F7003526BB /* Roboto-Medium.ttf in Resources */,
+				D643591223CF94DD001BC632 /* LaunchScreen.storyboard in Resources */,
+				D644ADA523D0B5F7003526BB /* Roboto-BlackItalic.ttf in Resources */,
+				D644ADA723D0B5F7003526BB /* Roboto-Thin.ttf in Resources */,
+				D644AD9D23D0B5F7003526BB /* Roboto-Light.ttf in Resources */,
+				D644ADA023D0B5F7003526BB /* Roboto-ThinItalic.ttf in Resources */,
+				D644ADA823D0B5F7003526BB /* Roboto-Black.ttf in Resources */,
+				D644AD9F23D0B5F7003526BB /* Roboto-MediumItalic.ttf in Resources */,
+				D643590F23CF94DD001BC632 /* Preview Assets.xcassets in Resources */,
+				D644ADA323D0B5F7003526BB /* Roboto-Italic.ttf in Resources */,
+				D643590C23CF94DD001BC632 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D64358FE23CF94DB001BC632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D643590623CF94DB001BC632 /* AppDelegate.swift in Sources */,
+				D65BD82323CFBCEF00A96E86 /* RemindRow.swift in Sources */,
+				D6D7478B23CF997D004EACAA /* Colors.swift in Sources */,
+				D6D7478D23CFA386004EACAA /* RoundedCornersShape.swift in Sources */,
+				D643590823CF94DB001BC632 /* SceneDelegate.swift in Sources */,
+				D65BD81F23CFB8EA00A96E86 /* BlurView.swift in Sources */,
+				D643592423CF9618001BC632 /* AddRemindPopupView.swift in Sources */,
+				D643592623CF9758001BC632 /* DatePickerFormatted.swift in Sources */,
+				D643592823CF977D001BC632 /* AddRemindButton.swift in Sources */,
+				D643591D23CF951C001BC632 /* NotificationHelper.swift in Sources */,
+				D643592223CF9602001BC632 /* HomeView.swift in Sources */,
+				D65BD82523CFBFC500A96E86 /* RemindCheckbox.swift in Sources */,
+				D643592023CF955C001BC632 /* NotificationModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D643591023CF94DD001BC632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D643591123CF94DD001BC632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D643591423CF94DD001BC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D643591523CF94DD001BC632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D643591723CF94DD001BC632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RappelAvecNotifications/Preview Content\"";
+				DEVELOPMENT_TEAM = 95JW38C5Y6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RappelAvecNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = run4u.RappelAvecNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D643591823CF94DD001BC632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RappelAvecNotifications/Preview Content\"";
+				DEVELOPMENT_TEAM = 95JW38C5Y6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RappelAvecNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = run4u.RappelAvecNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D64358FD23CF94DB001BC632 /* Build configuration list for PBXProject "RappelAvecNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D643591423CF94DD001BC632 /* Debug */,
+				D643591523CF94DD001BC632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D643591623CF94DD001BC632 /* Build configuration list for PBXNativeTarget "RappelAvecNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D643591723CF94DD001BC632 /* Debug */,
+				D643591823CF94DD001BC632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D64358FA23CF94DB001BC632 /* Project object */;
+}
