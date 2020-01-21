@@ -14,9 +14,13 @@ class NotificationHelper {
         // Création du contenu de la notification
         let content = UNMutableNotificationContent()
         
+        //Le titre de la notification
         content.title = "Rappelez-vous de"
+        //Le message à afficher
         content.body = notification.message
+        //Le son joué lors de la récéption de la notification
         content.sound = UNNotificationSound.default
+        //La pastille sur l'icône de votre application
         content.badge = 1
         
         //Formatter la date pour l'utiliser avec le Calendar et donc plannifier la notification
@@ -35,9 +39,5 @@ class NotificationHelper {
     static func removeLocalNotification(_ notification: NotificationModel) {
         //Suppression de la notification avec son id
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["\(notification.id)"])
-    }
-    
-    static func removeAllDeliveredNotification() {
-        
     }
 }

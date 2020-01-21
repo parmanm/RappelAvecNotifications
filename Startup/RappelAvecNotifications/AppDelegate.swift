@@ -7,27 +7,12 @@
 //
 
 import UIKit
-//Notification locale
-import UserNotifications
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    //Notification locale
-    let notificationCenter = UNUserNotificationCenter.current()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        //Notification locale
-        let options: UNAuthorizationOptions = [.alert, .sound, .badge]
-
-        //demande d'authorisation pour envoyer des notifications
-        notificationCenter.requestAuthorization(options: options) {
-            (didAllow, error) in
-            if !didAllow {
-                print("L'utilisateur a désactivé les notifications")
-            }
-        }
         
         return true
     }
@@ -35,17 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let hexString = deviceToken.map { String(format: "%02hhx", $0) }.joined()
         print(hexString)
-    }
-
-    //Suppression de la notification lorsqu'elle a été luq
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        guard let idToDelete = userInfo["del-id"] as? String else {
-            completionHandler(.noData)
-            return
-        }
-
-        UNUserNotificationCenter.current().removeDeliveredNotifications(withIdentifiers: [idToDelete])
-        completionHandler(.noData)
     }
 
     // MARK: UISceneSession Lifecycle
