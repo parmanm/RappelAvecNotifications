@@ -10,4 +10,9 @@ import Foundation
 import UserNotification
 
 class NotificationHelper {
+  static func addLocalNotification(_ notification: NotificationModel) {
+  }
+  
+  static func removeLocalNotification(_ notification: NotificationModel) {
+    }
 }
