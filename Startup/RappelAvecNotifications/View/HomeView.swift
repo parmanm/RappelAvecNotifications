@@ -32,7 +32,7 @@ struct HomeView: View {
                                 RemindRow(remind: remind, delete: { remind in
                                     self.reminds.removeAll { (rem) -> Bool in
                                         if remind.id == rem.id {
-                                           //remove notif
+                                           NotificationHelper.removeLocalNotification(rem)
                                         }
                                         return remind.id == rem.id
                                     }
