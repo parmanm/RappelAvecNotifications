@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UserNotification
 
 class NotificationHelper {
 }
